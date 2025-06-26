@@ -21,6 +21,15 @@ It serves as a hands-on exploration of Laravel’s core features, best practices
 
 This project is intended as a **code sample** for recruiters or peers who want to evaluate my Laravel skills.
 
+## 🔤 Blade Syntax Used
+This project makes extensive use of Laravel’s Blade templating engine, including:
+
+- @if, @foreach – Conditional rendering and loops
+- @guest, @auth – Authentication-based content display
+- @csrf – CSRF token for form security
+- @method – Spoofing HTTP verbs like PATCH and DELETE
+- @can, @cannot – Authorization checks using Gates and Policies
+
 ## 🔐 Note
 This project does **not** include the `.env` file or sensitive data. It is not configured for deployment or production.
 
